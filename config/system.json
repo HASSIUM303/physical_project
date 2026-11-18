@@ -1,0 +1,34 @@
+{
+  "star": {
+    "radius": 0.05,
+    "gm": 1.0
+  },
+  "planet": {
+    "radius": 0.03,
+    "mass": 1.0,
+    "x": 1.0,
+    "y": 0.0,
+    "vx": 0.0,
+    "vy": 1.1
+  },
+  "simulation": {
+    "dt": 0.001,
+    "stepsPerFrame": 20
+  },
+  "field": {
+    "initialStrength": 0.0,
+    "maxStrength": 5.0,
+    "strengthStep": 0.1,
+    "softening": 0.05
+  },
+  "camera": {
+    "initialZoom": 200.0,
+    "minZoom": 20.0,
+    "maxZoom": 2000.0
+  },
+  "window": {
+    "width": 900,
+    "height": 900,
+    "title": "Звезда и планета"
+  }
+}
